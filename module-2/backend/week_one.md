@@ -7,11 +7,12 @@ Note: When you're done, submit a PR.
 ### Week 1 Questions
 
 1. List the five common HTTP verbs and what the purpose is of each verb.
-  GET - serves up information to the http request.
-  POST - sends a request to create information.
-  PATCH - sends a request to update a part of information already present.
-  DELETE - sends a request to delete information.
-  PUT - sends a request to update information.
+
+  * GET - serves up information to the http request.
+  * POST - sends a request to create information.
+  * PATCH - sends a request to update a part of information already present.
+  * DELETE - sends a request to delete information.
+  * PUT - sends a request to update information.
 2. What is Sinatra?
   Sinatra is a gem which helps with turning a project into a viewable app.
   I believe it helps retrieve pages in an MVC design.
@@ -36,7 +37,7 @@ Note: When you're done, submit a PR.
   @count where you wish.
 
 7. In the same code block, how would I pass a local variable `name` with a value of `Mr. Ed` to the view?
-  Similarly you could use name = "Mr. Ed" and then send name using local: {}
+  Similarly you could use name = "Mr. Ed" and then send name using :locals {name: => name}
 8. What's the purpose of ERB?
   Embedded ruby allows you to use programming logic within an html file, making
   your html file dynamic.
