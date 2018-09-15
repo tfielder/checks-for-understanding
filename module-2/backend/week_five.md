@@ -26,12 +26,12 @@ Note: When you're done, submit a PR.
   The image tag refers to the rails.png file located within the project directory.
 
 7. What are some of the elements of a great read me? What are some of the benefits of taking the time to update a readme for our project?
-  They include 
+  A great read me can include information that covers the specs, installation, code, and any pitfalls a user might encounter.  Some of the benefits include having a reference document for a team or open-source style project.
 
 8. What are the top four accessibility issues that we as developers should be aware of?
-
+  Some of the accessibility issues include congnitive, visual, auditory, and mobility impairments.
 9. `before_save` is an example of a what? Where in our Rails application would we find a `before_save`?
-
+  
 10. Given the following object, how would we create a scope for all users who are active?
 
 ```ruby
